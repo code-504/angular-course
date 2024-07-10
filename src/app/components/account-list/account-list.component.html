@@ -1,0 +1,19 @@
+<!-- src/app/components/account-list/account-list.component.html -->
+<div class="list">
+  <h2>Account list</h2>
+  <ul>
+    <li *ngFor="let account of accounts; let i = index">
+      <div>
+        <strong>{{ account.name }}</strong>
+        <p>Balance: {{ account.balance }}</p>
+        <p>Address: {{ account.address }}</p>
+      </div>
+      <div class="button-container">
+        <button (click)="editAccount(i)" class="button-outline">Edit</button>
+        <button (click)="deleteAccount(i)" class="button-outline">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>

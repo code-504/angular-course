@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="39" viewBox="0 0 109 39">
+  <g id="logo" transform="translate(-269 -168)">
+    <g id="Grupo_9" data-name="Grupo 9">
+      <text id="ALL_TOM" data-name="ALL  TOM" transform="translate(270 188)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.137em"><tspan x="0" y="0" xml:space="preserve">ALL  TOM</tspan></text>
+      <circle id="Elipse_2" data-name="Elipse 2" cx="2" cy="2" r="2" transform="translate(317 178)" fill="#e62626"/>
+    </g>
+    <text id="CRYPYO_WALLET" data-name="CRYPYO WALLET" transform="translate(270 203)" fill="#160901" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.059em" opacity="0.16"><tspan x="0" y="0">CRYPYO WALLET</tspan></text>
+  </g>
+</svg>

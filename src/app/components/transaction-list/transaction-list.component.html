@@ -1,0 +1,20 @@
+<div class="list">
+  <h2>Transaction list</h2>
+  <ul>
+    <li *ngFor="let transaction of transactions; let i = index">
+      <div>
+        <strong>{{ transaction.from }} -> {{ transaction.to }}</strong>
+        <p>Amount: {{ transaction.amount }}</p>
+        <p>Date: {{ transaction.date | date : "shortDate" }}</p>
+      </div>
+      <div class="button-container">
+        <button (click)="editTransaction(i)" class="button-outline">
+          Edit
+        </button>
+        <button (click)="deleteTransaction(i)" class="button-outline">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>

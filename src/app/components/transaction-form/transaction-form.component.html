@@ -1,0 +1,27 @@
+<div class="form">
+  <form #transactionForm="ngForm" (ngSubmit)="addTransaction(transactionForm)">
+    <input
+      type="text"
+      [(ngModel)]="newTransaction.from"
+      name="from"
+      placeholder="Origin Account"
+      required
+    />
+    <input
+      type="text"
+      [(ngModel)]="newTransaction.to"
+      name="to"
+      placeholder="Destination Account"
+      required
+    />
+    <input
+      type="number"
+      [(ngModel)]="newTransaction.amount"
+      name="amount"
+      placeholder="Amount"
+      required
+    />
+    <input type="date" [(ngModel)]="newTransaction.date" name="date" required />
+    <button type="submit" class="button-fill">Add transaction</button>
+  </form>
+</div>

@@ -1,0 +1,27 @@
+<!-- src/app/components/account-form/account-form.component.html -->
+<div class="form">
+  <form #accountForm="ngForm" (ngSubmit)="addAccount(accountForm)">
+    <input
+      type="text"
+      [(ngModel)]="newAccount.name"
+      name="name"
+      placeholder="Account Name"
+      required
+    />
+    <input
+      type="number"
+      [(ngModel)]="newAccount.balance"
+      name="balance"
+      placeholder="Balance"
+      required
+    />
+    <input
+      type="text"
+      [(ngModel)]="newAccount.address"
+      name="address"
+      placeholder="Wallet Address"
+      required
+    />
+    <button type="submit" class="button-fill">Add Account</button>
+  </form>
+</div>

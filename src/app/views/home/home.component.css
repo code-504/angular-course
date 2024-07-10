@@ -1,0 +1,113 @@
+#section-hero {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  height: 70vh;
+  text-align: left;
+}
+
+.hero-title {
+  flex: 1;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-title div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.hero-title > div > h1 {
+  font-size: 3rem;
+}
+
+.hero-title > div > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 140%;
+  height: auto;
+  max-width: 700px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 767px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-title {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-title div {
+    align-items: center;
+  }
+
+  .hero-title > div > h1 {
+    font-size: 2rem;
+  }
+
+  .hero-title > div > p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .hero-img img {
+    width: 80%;
+    height: auto;
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 640px) {
+  .features-list {
+    flex-direction: column;
+  }
+
+  .feature-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

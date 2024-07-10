@@ -1,0 +1,19 @@
+header {
+  margin: 48px auto;
+  width: 100%;
+  max-width: 1060px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}

@@ -1,1 +1,173 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-black: #302621;
+  --color-gray: #757575;
+  --color-gray-dark: #585858;
+  --color-gray-light: #818181;
+  --color-primary: #e62626;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.color-gray {
+  color: var(--color-gray);
+}
+
+.color-gray-dark {
+  color: var(--color-gray-dark);
+}
+
+.color-gray-light {
+  color: var(--color-gray-light);
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-fill {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-primary);
+  padding: 1rem 1.2rem;
+  border-radius: 1000px;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.button-outline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  padding: 1rem 1.2rem;
+  border-radius: 1000px;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.paragraph-md {
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+
+.paragraph-lg {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+}
+
+.section {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.title-h1 {
+  text-align: center;
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list span {
+  margin-right: 10px;
+}
+
+@media (max-width: 680px) {
+  .title-h1 {
+    font-size: 32px;
+  }
+}
