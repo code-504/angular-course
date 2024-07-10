@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # # Crypto App - Angular course
+=======
+# Crypto App - Angular course
+>>>>>>> 77dae40126a3973618e34468cded935a77dd0d22
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 

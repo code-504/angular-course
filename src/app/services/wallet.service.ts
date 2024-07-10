@@ -3,12 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, tap } from 'rxjs';
 import { Account } from '../models/account.model';
 import { Transaction } from '../models/transaction.model';
+import { environment } from '../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root',
 })
 export class WalletService {
-  private apiUrl = 'http://localhost:3000/api';
+  private apiUrl = environment.API_URL;
   private isEditing: boolean = false;
   private account: Account = { _id: '', name: '', address: '', balance: 0 };
   private transaction: Transaction = {
